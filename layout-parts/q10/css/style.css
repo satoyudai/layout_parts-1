@@ -1,5 +1,153 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q10box {
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ecf1f2;
+}
 
+.q10__tittle {
+  position: relative;
+}
+
+.form__exercise {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.q10__tittle::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.clearfix {
+  display: flow-root;
+}
+
+.contentsbox {
+  margin-top: 20px;
+}
+
+.q10__left {
+  float: left;
+  width: 300px;
+}
+
+.q10__right {
+  float: right;
+  width: 380px;
+}
+
+.init {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.p__tittle {
+  float: left;
+  line-height: 25px;
+  width: 100px;
+  text-align: right;
+}
+
+.aste {
+  color: #f00;
+}
+
+.box__form {
+  width: 180px;
+  float: right;
+}
+
+.radio__bottun {
+  display: none;
+}
+
+.radio__text {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.form__contents {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.radio__text::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio__bottun:checked + .radio__text::after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio__contents {
+  float: right;
+  width: 180px;
+}
+
+.form__textarea {
+  padding: 10px;
+  height: 203px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  resize: none;
+}
+
+.form__bottun {
+  float: right;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
 /* 回答はここに書いてね */
