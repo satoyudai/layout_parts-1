@@ -1,33 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.wrapper2{
+.wrapper2 {
   background-color:#eff3f4;
-  height:500px;
-  width:880px;
+  height: 500px;
+  width: 880px;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
 }
 
 .box1 {
-  height:250px;
-  width:880px;
+  height: 250px;
+  width: 880px;
+  float: left;
 }
 
 .box2 {
-  height:250px;
-  width:880px;
+  height: 250px;
+  width: 880px;
 }
 
-.box1 > img{
-  float:left;
-  margin-right:20px;
-  margin-bottom:10px;
+.box1 img {
+  float: left;
+  margin: 0px 20px 10px 0px; 
 }
-.box2 > img{
-  float:right;
-  margin-left:20px;
-  margin-bottom:10px;
+
+.box2 img {
+  float: right;
+  margin: 0px 0px 10px 20px;
 }
 
 .example{

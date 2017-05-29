@@ -2,61 +2,58 @@
 
 /* 回答はここに書いてね */
 
-
-.clearfix:after,
-.clearfix:before{
-  content:"";
-  display:block;
-  clear:both;
+.contents__box{
+  margin : 0 auto;
+  width : 700px;
+  height : 40px;
 }
 
-.small{
-  border-radius: 3px;
-  font-size: 16px;
-  padding: 5px 15px 5px;
-  height: 16px;
-  position: relative;
-  left: 37%;
-  margin: 5px 5px 10px;
-  float: left;
+.small {
+  border-radius : 3px;
+  font-size : 16px;
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 26px;
+  margin: auto 5px;
 }
 
-.middle{
-  border-radius: 5px;
-  font-size: 20px;
-  padding: 5px 20px 5px;
-  height: 22px;
-  float: left;
-  margin: 5px 5px 10px;
-  position: relative;
-  left: 34%;
+.middle {
+  border-radius : 5px;
+  font-size : 20px;
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 32px;
+  margin: auto 5px;
 }
 
-.large{
-  border-radius: 7px;
-  font-size: 24px;
-  padding: 5px 25px 5px;
-  height: 28px;
-  float: left;
-  margin: 5px 5px 10px;
-  position: relative;
-  left: 30%;
+.large {
+  border-radius : 7px;
+  font-size : 24px;
+  display: inline-block;
+  padding: 0 25px;
+  line-height: 38px;
+  margin: auto 5px;
 }
 
 .common {
-  background-color:#00bcd4;
+  color: #FFF;
+  background-color : #00bcd4;
+  cursor: pointer;
 }
 
-.error{
-  background-color:#ff4081;
+.error {
+  color: #FFF;
+  cursor: pointer;
+  background-color : #ff4081;
 }
 
-.disabled{
-  background-color: #e5e5e5;
+.disabled {
+  color: #FFF;
+  background-color : #e5e5e5;
 }
 
-.shadow{
-  box-shadow: 0 1px 6px rgba(0,0,0,.12),
+.shadow {
+  box-shadow : 0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
 }
 /* 回答はここに書いてね */

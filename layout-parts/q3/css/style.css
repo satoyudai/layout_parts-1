@@ -1,43 +1,45 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table{
-  border:solid #dedede 1px;
-  border-collapse:collapse;
-  table-layout:fixed;
-  width:100%;
-
-}
-th{
-  background-color:#2244aa;
-  border-right:solid #dedede 1px;
-  border-top:solid #dedede 1px;
-  padding:10px;
-  font-size:18px;
-  line-height:26px;
-
-}
-th:last-child{
-  border-right:none;
+table {
+  border : solid #dedede 1px;
+  border-collapse : collapse;
+  table-layout : fixed;
+  width : 100%;
 }
 
-td{
-  border-top:solid #dedede 1px;
-  border-right: solid #dedede 1px;
-  padding:10px;
-  font-size: 16px;
-  line-height: 22px;
-  text-align:center;
-}
-td:last-child{
-  border-right:none;
+th {
+  background-color : #2244aa;
+  border-right : solid #dedede 1px;
+  border-top : solid #dedede 1px;
+  padding : 10px;
+  font-size : 18px;
+  line-height : 26px;
+  color : #FFF;
 }
 
-tr:nth-child(odd){
+th:last-child {
+  border-right : none;
+}
+
+td {
+  border-top : solid #dedede 1px;
+  border-right : solid #dedede 1px;
+  padding : 10px;
+  font-size : 16px;
+  line-height : 22px;
+  text-align : center;
+}
+
+td:last-child {
+  border-right : none;
+}
+
+tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-tr:nth-child(5){
-  border-bottom: dashed #000 2px;
+tr:nth-child(5) {
+  border-bottom : dashed #000 2px;
 }
 /* 回答はここに書いてね */
