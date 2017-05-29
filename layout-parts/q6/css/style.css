@@ -3,14 +3,14 @@
 /* 回答はここに書いてね */
 
 .contents__box{
-  margin : 0 auto;
-  width : 700px;
-  height : 40px;
+  margin: 0 auto;
+  width: 700px;
+  height: 40px;
 }
 
 .small {
-  border-radius : 3px;
-  font-size : 16px;
+  border-radius: 3px;
+  font-size: 16px;
   display: inline-block;
   padding: 0 15px;
   line-height: 26px;
@@ -18,8 +18,8 @@
 }
 
 .middle {
-  border-radius : 5px;
-  font-size : 20px;
+  border-radius: 5px;
+  font-size: 20px;
   display: inline-block;
   padding: 0 20px;
   line-height: 32px;
@@ -27,8 +27,8 @@
 }
 
 .large {
-  border-radius : 7px;
-  font-size : 24px;
+  border-radius: 7px;
+  font-size: 24px;
   display: inline-block;
   padding: 0 25px;
   line-height: 38px;
@@ -37,23 +37,23 @@
 
 .common {
   color: #FFF;
-  background-color : #00bcd4;
+  background-color: #00bcd4;
   cursor: pointer;
 }
 
 .error {
   color: #FFF;
   cursor: pointer;
-  background-color : #ff4081;
+  background-color: #ff4081;
 }
 
 .disabled {
   color: #FFF;
-  background-color : #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .shadow {
-  box-shadow : 0 1px 6px rgba(0,0,0,.12),
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
 }
 /* 回答はここに書いてね */

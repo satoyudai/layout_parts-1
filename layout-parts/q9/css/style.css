@@ -3,47 +3,47 @@
 /* 回答はここに書いてね */
 
 .wrapper2 {
-  padding : 20px;
+  padding: 20px;
 }
 
 .pd20 {
-  padding-right : 20px;
+  padding-right: 20px;
 }
 
 .wrapper3 {
-  width : 100%;
-  text-align : center;
-  line-height : 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
 }
 
 .white {
-  background-color : #FFF;
+  background-color: #FFF;
 }
 
-.grey{
-  background-color : #ecf1f2;
+.grey {
+  background-color: #ecf1f2;
 }
 
 .contents__box {
-  display : flex;
-  margin-top : 20px;
-  text-align : center;
-  line-height : 50px;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 50px;
 }
 
 .grid12 {
-  height : 50px;
-  width : 100%;
+  height: 50px;
+  width: 100%;
 }
 
 .grid6 {
-  height : 50px;
-  width : 52%;
+  height: 50px;
+  width: 52%;
 }
 
 .grid4 {
-  height : 50px;
-  width : 35%;
+  height: 50px;
+  width: 35%;
 }
 
 .grid3 {

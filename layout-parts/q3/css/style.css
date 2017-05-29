@@ -2,37 +2,37 @@
 
 /* 回答はここに書いてね */
 table {
-  border : solid #dedede 1px;
-  border-collapse : collapse;
-  table-layout : fixed;
-  width : 100%;
+  border: solid #dedede 1px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
 }
 
 th {
-  background-color : #2244aa;
-  border-right : solid #dedede 1px;
-  border-top : solid #dedede 1px;
-  padding : 10px;
-  font-size : 18px;
-  line-height : 26px;
-  color : #FFF;
+  background-color: #2244aa;
+  border-right: solid #dedede 1px;
+  border-top: solid #dedede 1px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
 }
 
 th:last-child {
-  border-right : none;
+  border-right: none;
 }
 
 td {
-  border-top : solid #dedede 1px;
-  border-right : solid #dedede 1px;
-  padding : 10px;
-  font-size : 16px;
-  line-height : 22px;
-  text-align : center;
+  border-top: solid #dedede 1px;
+  border-right: solid #dedede 1px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
 }
 
 td:last-child {
-  border-right : none;
+  border-right: none;
 }
 
 tr:nth-child(odd) {
@@ -40,6 +40,6 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(5) {
-  border-bottom : dashed #000 2px;
+  border-bottom: dashed #000 2px;
 }
 /* 回答はここに書いてね */

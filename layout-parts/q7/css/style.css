@@ -3,32 +3,32 @@
 /* 回答はここに書いてね */
 
 .wrapper2 {
-  text-align : center;
+  text-align: center;
 }
 
 .init {
-  padding : 0;
-  background : none;
-  border : none;
-  border-radius : 0;
-  font-size : 16px;
-  outline : none;
-  -webkit-appearance : none;
-  -moz-appearance : none;
-  appearance : none;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .wrapper3 {
-  display : inline-block;
-  margin : 10px;
-  font-size : 16px;
-  vertical-align : middle;
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+  vertical-align: middle;
 }
 
 .textarea_blue {
-  padding : 5px;
-  border : 1px solid #00BCD4;
-  border-radius : 5px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
 }
 
 .textarea_blue::-webkit-input-placeholder {
@@ -36,139 +36,139 @@
 }
 
 .textarea_blue:-ms-input-placeholder {
-  color : #00bcd4;
+  color: #00bcd4;
 }
 
 .textarea_blue::-moz-placeholder {
-  color : #00bcd4;
+  color: #00bcd4;
 }
 
 .textarea_blue:focus {
-  box-shadow : 0 0 7px #00bcd4;
+  box-shadow: 0 0 7px #00bcd4;
 }
 
 .textarea_kotei {
-  height : 40px;
-  padding : 5px;
-  border : 1px solid #00BCD4;
-  border-radius : 5px;
-  resize : none;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;
 }
 
 .radio_botton{
-  display : none;
+  display: none;
 }
 
 .radio_text{
-  position : relative;
-  display : inline-block;
-  padding : 3px 3px 3px 20px;
-  cursor : pointer;
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
 }
 
 
 .radio_text::before {
-  position : absolute;
-  top : 50%;
-  left : 0;
-  width : 14px;
-  height : 14px;
-  margin-top : -8px;
-  background-color : #fff;
-  border : 1px solid #ccc;
-  border-radius : 50%;
-  content : '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
 }
 
 .radio_botton:checked + .radio_text:after {
-    position : absolute;
-    top : 50%;
-    left : 4px;
-    width : 8px;
-    height : 8px;
-    margin-top : -4px;
-    background-color : #00BCD4;
-    border-radius : 50%;
-    content : '';
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
 }
 
 .checkbox {
-  cursor : pointer;
+  cursor: pointer;
 }
 
 .checkbox_botton {
-  display : none;
+  display: none;
 }
 
 .checkbox_botton:checked + .checkbox_text::after {
-  position : absolute;
-  content : '';
-  top : 5px;
-  left : 3px;
-  width : 13px;
-  height : 5px;
-  border-bottom : 2px solid #00BCD4;
-  border-left : 2px solid #00BCD4;
-  -webkit-transform : rotate(-45deg);
-  transform : rotate(-45deg);
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .checkbox_text {
-  position : relative;
-  display : inline-block;
-  padding : 3px 3px 3px 22px;
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
 }
 
 .checkbox_text:before {
-  position : absolute;
-  content : '';
-  top : 50%;
-  left : 0;
-  width : 14px;
-  height : 14px;
-  margin-top : -8px;
-  background-color : #fff;
-  border : 1px solid #ccc;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
 }
 
 .selectbox {
-  position : relative;
-  background-color : #FFF;
+  position: relative;
+  background-color: #FFF;
 }
 
-.select_itiran {
-  position : relative;
-  border-radius : 5px;
-  border : 1px solid #ccc;
-  padding : 5px 30px 5px 5px;
-  font-size : 14px;
+.select__etc {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
 }
 
 .selectbox::before {
-  position : absolute;
-  top : 7px;
-  right : 9px;
-  width : 8px;
-  height : 8px;
-  border-bottom : 2px solid #ccc;
-  border-left : 2px solid #ccc;
-  -webkit-transform : rotate(-45deg);
-  transform : rotate(-45deg);
-  content : "";
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
 }
 
 .botton {
-    padding : 5px 10px;
-    border : 1px solid #00BCD4;
-    border-radius : 5px;
-    color : #00BCD4;
-    cursor : pointer;
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #00BCD4;
+  cursor: pointer;
 }
 
 
 .botton:active {
-  background-color : #00bcd4;
-  color : #fff;
+  background-color: #00bcd4;
+  color: #fff;
 }
 
 /* 回答はここに書いてね */
